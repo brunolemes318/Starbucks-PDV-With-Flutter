@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:starbucks/pages/default/mixin_menu_default_view.dart';
 
-class PageDefault extends StatelessWidget {
+class PageDefault extends StatelessWidget with MixinMenuDefault {
   late Widget body;
-  late AppBar appbarDefault;
   late Color backgroundColorDefault;
   late Text titleScreenDefault;
   late SvgPicture logoDefault;
