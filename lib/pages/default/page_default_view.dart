@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class PageDefault extends StatelessWidget {
   late Widget body;
   late AppBar appbarDefault;
   late Color backgroundColorDefault;
   late Text titleScreenDefault;
-  late Image logoDefault;
+  late SvgPicture logoDefault;
 
   PageDefault({Key? key, required this.titleScreenDefault, required this.body})
       : super(key: key) {
